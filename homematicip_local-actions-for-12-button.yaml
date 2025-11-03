@@ -5,13 +5,13 @@ blueprint:
     keep in mind, that long-press actions might be executed multiple times, according
     to your configured minimum duration for long press. This can be configured in
     your CCU.
-    Tested with HmIP-RC8. Should work with other device too.
+    Tested with HmIP-RC12. Should work with other device too.
     v2022-10-28
   domain: automation
-  source_url: https://github.com/sukramj/homematicip_local/blob/devel/blueprints/automation/homematicip_local-actions-for-8-button.yaml
+  source_url: https://github.com/junmarpa/ha-blueprint/edit/main/homematicip_local-actions-for-12-button.yaml
   input:
     remote:
-      name: 8-Button Device
+      name: 12-Button Device
       description: Please select a 12-Button device of your Homematic(IP) Local integration.
       selector:
         device:
